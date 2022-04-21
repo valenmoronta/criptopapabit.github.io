@@ -16,6 +16,8 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #faf8f7;
+  --morado: #612897;
+  --full-black: #000000;
 }
 
 * {
@@ -28,6 +30,7 @@ html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -39,7 +42,7 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  background: linear-gradient(207.8deg, #000000 3.69%, #612897 100%);
 }
 
 header img {
@@ -163,7 +166,7 @@ main {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
-  color: var(--bitcoin-orange);
+  color: #52006a;
 }
 
 .container-tables {
@@ -185,11 +188,15 @@ main {
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--black);
-  background-color: #faf8f7;
+  background-color: #c7add3;
+  cursor: default;
+}
+.container-tables td:hover {
+  background-color: #e7b2a5;
 }
 
 .container-tables .table__top__left {
-  border-radius: 15px 0 0 0;
+  border-radius: 15px;
 }
 
 .container-tables .table__top__right {
@@ -197,7 +204,7 @@ main {
 }
 
 .container-tables .table-botom-left {
-  border-radius: 0 0 0 15px;
+  border-radius: 15px;
 }
 
 .container-tables .table-botom-right {
@@ -216,7 +223,7 @@ main {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
-  color: var(--secondary-blue);
+  color: #3c415c;
 }
 
 .container-tables .down {
@@ -723,7 +730,7 @@ footer {
   display: flex;
   width: 100%;
   height: 150px;
-  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  background: linear-gradient(207.8deg, #000000 3.69%, #612897 100%);
 }
 
 footer section {
