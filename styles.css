@@ -331,7 +331,6 @@ main {
   line-height: 1.8rem;
   color: #808080;
 }
-
 .article-container {
   width: 90%;
   max-width: 288px;
@@ -339,9 +338,13 @@ main {
   height: 164px;
   margin: 15px auto;
   padding: 15px;
-  background-color: var(--warman-black);
+  background-color: #201e1c;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.16);
+}
+
+.article-container:hover {
+  background-color: #52006a;
 }
 
 .article-container .reloj {
